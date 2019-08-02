@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"routes_at_stop": [], "osm_id": 233174602, "is_wheelchair_ok": true, "name": "Universit\u00e9", "osm_type": "node", "has_shelter": false, "has_tactile_paving": false, "has_departures_board": false, "has_bench": false, "local_ref": ""}, "geometry": {"type": "Point", "coordinates": [2.14873084433714, 48.8100353795001]}}

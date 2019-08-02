@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"routes_at_stop": [], "osm_id": 6543531445, "is_wheelchair_ok": false, "name": "Pasteur - Curie", "osm_type": "node", "has_shelter": false, "has_tactile_paving": false, "has_departures_board": false, "has_bench": false, "local_ref": ""}, "geometry": {"type": "Point", "coordinates": [2.17782677718532, 48.7573790902976]}}

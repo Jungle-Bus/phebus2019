@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"routes_at_stop": [], "osm_id": 4861762236, "is_wheelchair_ok": false, "name": "Amp\u00e8re - Curie", "osm_type": "node", "has_shelter": false, "has_tactile_paving": false, "has_departures_board": false, "has_bench": false, "local_ref": ""}, "geometry": {"type": "Point", "coordinates": [2.17463017077202, 48.7569183370801]}}

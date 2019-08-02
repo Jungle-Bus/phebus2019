@@ -1,0 +1,1 @@
+{"type": "Feature", "properties": {"routes_at_stop": [], "osm_id": 6412720212, "is_wheelchair_ok": true, "name": "Clos Normand", "osm_type": "node", "has_shelter": false, "has_tactile_paving": false, "has_departures_board": false, "has_bench": false, "local_ref": ""}, "geometry": {"type": "Point", "coordinates": [2.18606358961489, 48.7582065517789]}}
