@@ -7,16 +7,16 @@ var bench_img = "<img src='img/bench.svg' heigth='20px' width='20px' />"
 var shelter_bench_img = "<img src='img/shelter_bench.svg' heigth='20px' width='20px' />"
 var departures_img = "<img src='img/departures.svg' heigth='20px' width='20px' />"
 
-const vapour_trail_api_base_url = "/api";
-const vapour_trail_tileserver_url = `${window.location.origin}/tiles/`;
+const vapour_trail_api_base_url = "https://jungle-bus.github.io/phebus2019/api";
+const vapour_trail_tileserver_url = "https://jungle-bus.github.io/phebus2019/tiles/";
 
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'glstyle.json',
     center: [
-        1.8659, 46.1662
+        2.13358, 48.8039
     ],
-    zoom: 13,
+    zoom: 12.97,
     hash: true,
     transformRequest: (url, resourceType)=> {
     if(url.startsWith('http://t-rex:6767')) {
@@ -24,9 +24,8 @@ var map = new mapboxgl.Map({
        url: url.replace('http://t-rex:6767/',  vapour_trail_tileserver_url)
      }
     } else if (url.startsWith('http://web:8082')) {
-        console.log(url.replace('http://web:8082',  window.location.origin));
         return {
-          url: url.replace('http://web:8082',  window.location.origin)
+          url: url.replace('http://web:8082',  "https://jungle-bus.github.io/phebus2019")
         }
     }
   }
